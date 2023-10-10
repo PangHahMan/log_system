@@ -1,4 +1,4 @@
-.PHONY:test
+.PHONY:log
 
 log:log.cc
 	g++ -o $@ $^ -std=c++11 -lpthread
